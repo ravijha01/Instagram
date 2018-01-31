@@ -23,6 +23,7 @@ class Instagram(TorManager,Browser):
 
   self.ip = None # current ip address
   self.tries = 0
+  self.tries = 55
   self.wait = False # wait for connection
   self.alive = True # is bruter still running
   self.isFound = False # is the password found?
